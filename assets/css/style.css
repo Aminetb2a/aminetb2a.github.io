@@ -1031,15 +1031,15 @@ Resume Timeline
 
 @media (max-width: 992px) {
 
-  .resume-section{
-    /* background: url(../images/resume.jpg) no-repeat center center; */
+  /* .resume-section{
+     background: url(../images/resume.jpg) no-repeat center center; 
 
     background-attachment: inherit;
     background-size: cover;
 
     /* position: absolute;*/
     /* min-height: 50px; */
-  }
+  } */
   .timeline>li .timeline-content:hover {
       background: #00baa4;
       color: #fff;
