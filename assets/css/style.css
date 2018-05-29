@@ -673,7 +673,7 @@ SOCIAL ICON
     background-attachment: fixed;
     background-size: cover;
     position: relative;
-    min-height: 750px;
+    min-height: 550px;
 }
 
 .video-intro {
@@ -1030,6 +1030,20 @@ Resume Timeline
 }
 
 @media (max-width: 992px) {
+
+  /* .resume-section{
+    /* background: url(../images/resume.jpg) no-repeat center center;
+
+    background-attachment: inherit;
+    background-size: cover;
+
+    /* position: absolute;
+    /* min-height: 50px;
+  }
+  .timeline>li .timeline-content:hover {
+      background: #00baa4;
+      color: #fff;
+  } */
 
 .timeline-heading h3 {
     /* font-size: 20px;
