@@ -395,6 +395,10 @@ ul.list-check li::before {
 path{
   stroke: #00baa4;
   fill: #00baa4;
+  background: rgb(40,255,247,1);
+background: : -moz-linear-gradient(45deg, rgba(40,255,247,0.7) 10%, rgba(0, 124, 110, 1) 95%);
+background: : -webkit-linear-gradient(45deg, rgba(40,255,247,0.7) 10%,rgba(0, 124, 110, 1) 95%);
+background: : linear-gradient(45deg, rgba(40,255,247,0.7) 10%,rgba(0, 124, 110, 1) 95%);
   stroke-dasharray:2200px;
   opacity: 10;
   animation: animate 3s cubic-bezier(0,0.23,1,.1);
@@ -1367,7 +1371,7 @@ Resume Timeline
 
 /* === Facts Section === */
 .facts-section {
-    background:url(../../assets/images/counter-bg.jpg) no-repeat center center;
+    background:url(../../assets/images/back.jpg) no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
     color: #fff;
