@@ -1,4 +1,4 @@
-#00baa4/*
+/*
     Author: TrendyTheme
     Template: I AM X
     Version: 1.2
@@ -1838,7 +1838,7 @@ Icon for all respective meta
     border: 1px solid #eee;
     border-bottom: 3px double #eee;
 }
-.map-canvas {
+#map-canvas {
     height: 350px;
 }
 
