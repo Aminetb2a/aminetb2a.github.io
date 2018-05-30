@@ -1391,7 +1391,7 @@ Resume Timeline
 
 
 .main {
-    height: 70vh;
+    height: 65vh;
     width: 100%;
     position: relative;
     /* overflow: hidden; */
@@ -1414,7 +1414,7 @@ Resume Timeline
   transform: translate(-50%,-50%);
   left: 50%;
   top: 45%;
-  margin-left: -220px;
+  margin-left: -120px;
   margin-top: 55px;
 
 }
@@ -1524,19 +1524,19 @@ transition:.6s;
 }
 
 .main ul:hover li:nth-child(1) {
-   transform:  rotate(0deg) skew(0) translate(250%,0) ;
+   transform:  rotate(0deg) skew(0) translate(200%,0) ;
 }
 .main ul:hover li:nth-child(2) {
-   transform:  rotate(0deg) skew(0) translate(150%,0);
+   transform:  rotate(0deg) skew(0) translate(100%,0);
 }
 .main ul:hover li:nth-child(3) {
-   transform:  rotate(0deg) skew(0) translate(50%,0) ;
+   transform:  rotate(0deg) skew(0);// translate(50%,0) ;
 }
 .main ul:hover li:nth-child(4) {
-   transform:  rotate(0deg) skew(0) translate(-50%,0) ;
+   transform:  rotate(0deg) skew(0) translate(-100%,0) ;
 }
 .main ul:hover li:nth-child(5) {
-   transform:  rotate(0deg) skew(0) translate(100%,0) ;
+   transform:  rotate(0deg) skew(0) translate(-200%,0) ;
 }
 .main ul:hover li:hover {
   z-index: 9;
@@ -1561,14 +1561,25 @@ transition:.6s;
   -webkit-text-fill-color: transparent;
 }
 
+
+@media (min-width: 1366px) {
+  .main ul li {
+     display: block;
+    position: absolute;
+    background-color: #fefefe;
+    width: 280px;
+    height: 380px;
+    top: -20px;
+  }
+}
 @media (max-width: 600px) {
   .main ul li {
      display: block;
     position: absolute;
     background-color: #fefefe;
-     width: 250px;
+    width: 250px;
     height: 320px;
-    top: -30px;
+    top: -45px;
   }
   .main ul li:nth-child(1) {
      transform:  rotate(20deg) skew(-20deg) translate(20px,120px);
