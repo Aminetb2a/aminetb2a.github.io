@@ -1042,7 +1042,7 @@ Resume Timeline
     background-size: cover;
 
      position: absolute;
-     min-height: 50px; 
+     min-height: 50px;
   }/*
   .timeline>li .timeline-content:hover {
       background: #00baa4;
@@ -1471,7 +1471,7 @@ transition:.6s;
 }
 .main ul li  a {
   display: inline-block;
-  padding: 10px 13px;
+  padding: 10px 16px;
   top: 40%;
   border: 1px solid #fff;
   border-radius: 3px;
