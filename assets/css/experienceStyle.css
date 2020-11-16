@@ -3157,9 +3157,14 @@ p.banner_pera {
 }
 .experience_section .col-md-12:nth-child(2) .ex_leftside:after {
     border-left-color: transparent;
-    border-top-color: #ffc454;
+    border-top-color: #fdd342;
 }
 .experience_section .col-md-12:nth-child(5) .ex_leftside:after {
+    border-left-color: transparent;
+    border-top-color: #01aca4;
+}
+
+.experience_section .col-md-12:nth-child(6) .ex_leftside:after {
     border-left-color: transparent;
     border-top-color: #ffc454;
 }
@@ -3192,6 +3197,7 @@ p.banner_pera {
     margin-bottom: 0;
 	float: right;
 }
+
 .port_project_gallery .grid-item {
     width: 100%;
 }
