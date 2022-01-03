@@ -155,7 +155,7 @@ window.onload = function() {
     // INJECT CSS
     var css = document.createElement("style");
     css.type = "text/css";
-    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #00cc5c}";
+    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #01aca4}";
     document.body.appendChild(css);
 };
 
