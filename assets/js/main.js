@@ -73,6 +73,7 @@ sr.reveal('.about__img',{});
 sr.reveal('.about__subtitle',{delay: 100}); 
 sr.reveal('.about__text1',{delay: 150}); 
 sr.reveal('.about__text2',{delay: 200}); 
+sr.reveal('.about__text3',{delay: 250}); 
 
 /*SCROLL EDUCATION*/
 sr.reveal('.education__img',{}); 
