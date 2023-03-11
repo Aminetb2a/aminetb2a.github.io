@@ -1,15 +1,15 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/AhmedAmine_Cv_03_2023.pdf";
 import Info from "./Info";
 
 
 const About = () => {
     return (
         <section className="about section" id="about">
-            <h2 className="section__title">About Me</h2>
-            <span className="section__subtitle">My Introduction</span>
+            <h2 className="section__title">Introduction</h2>
+            <span className="section__subtitle">About Me</span>
 
             <div className="about__container container grid">
                 <img src={AboutImg} alt="" className="about__img"/>
@@ -50,11 +50,6 @@ const About = () => {
                             ></path>
                         </svg>
                     </a>
-                    {/* <div className="about__buttons">
-                            <a download="" href="packages/pdf/" className="button button--flex">
-                                Download CV<i className="uil uil-download-alt button__icon"></i>
-                            </a>
-                        </div> */}
                 </div>
             </div>
         </section>
