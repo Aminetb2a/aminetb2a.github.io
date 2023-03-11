@@ -9,7 +9,6 @@ const Integration = () => {
 
     const [toggleState, setToogleState] = useState(0);
     const toggleTab = (index) => {
-        console.log("toggleTab idex.." + index);
         setToogleState(index)
     }
     return (
@@ -18,7 +17,6 @@ const Integration = () => {
             <span className="section__subtitle">Third party applications I integrated</span>
 
             <Swiper className="integration__container container grid"
-                // loop={true}
                     grabCursor={true}
                     pagination={{clickable: true}}
                     slidesPerView={3}

@@ -10,6 +10,7 @@
     background-color: var(--container-color);
     padding: 2rem 0 2rem 2.5rem;
     border-radius: 1.25rem;
+    height: auto;
 }
 
 .integration__icon {
@@ -167,12 +168,23 @@
 }
 
 
-@media screen and (max-width: 992px) {
-    .integration__container {
-        width: initial;
+@media screen and (max-width: 768px) {
+    .integration__content {
+        width: 50% !important;
+        height: auto !important;
     }
+}
 
-    .integration__card {
-        padding: 1.25rem 1.5rem;
+@media screen and (max-width: 576px) {
+    .integration__content {
+        width: 70% !important;
+        height: auto !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .integration__content {
+        width: 80% !important;
+        height: auto !important;
     }
 }
