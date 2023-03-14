@@ -1,10 +1,10 @@
-.integration__container {
+.portfolio__container {
     grid-template-columns: repeat(3, 350px);
     justify-content: center;
     column-gap: 1.8rem;
 }
 
-.integration__content {
+.portfolio__content {
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--container-color);
@@ -13,20 +13,20 @@
     height: auto;
 }
 
-.integration__icon {
+.portfolio__icon {
     display: block;
     font-size: 2rem;
     columns: var(--title-color);
     margin-bottom: var(--mb-1);
 }
 
-.integration__title {
+.portfolio__title {
     font-size: var(--h3-font-size);
     font-weight: var(--mb-1);
     margin-bottom: var(--font-medium);
 }
 
-.integration__button {
+.portfolio__button {
     color: var(--title-color);
     font-size: var(--small-font-size);
     display: inline-flex;
@@ -35,16 +35,16 @@
     cursor: pointer;
 }
 
-.integration__button-icon {
+.portfolio__button-icon {
     font-size: 1rem;
     transition: 0.3s;
 }
 
-.integration__button:hover .integration__button-icon {
+.portfolio__button:hover .portfolio__button-icon {
     transform: translateX(00.25rem);
 }
 
-.integration__modal {
+.portfolio__modal {
     position: fixed;
     top: 0;
     left: 0;
@@ -61,7 +61,7 @@
     transition: 0.3s;
 }
 
-.integration__modal-content {
+.portfolio__modal-content {
     width: 600px;
     position: relative;
     background-color: var(--container-color);
@@ -69,7 +69,7 @@
     border-radius: 1.5rem;
 }
 
-.integration__modal-close {
+.portfolio__modal-close {
     position: absolute;
     top: 1.5rem;
     right: 1.5rem;
@@ -77,35 +77,35 @@
     cursor: pointer;
 }
 
-.integration__modal-title {
+.portfolio__modal-title {
     text-align: center;
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1);
 }
 
-.integration__modal-description {
+.portfolio__modal-description {
     font-size: var(--small-font-size);
     padding: 0 .5rem;
     margin-bottom: var(--mb-2);
 }
 
-.integration__modal-services {
+.portfolio__modal-services {
     row-gap: 0.75rem;
 }
 
-.integration__modal-service {
+.portfolio__modal-service {
     display: flex;
     align-items: center;
     column-gap: 0.5rem;
 }
 
-.integration__modal-icon {
+.portfolio__modal-icon {
     color: var(--title-color);
     font-size: 1.1rem;
 }
 
-.integration__modal-info {
+.portfolio__modal-info {
     font-size: var(--small-font-size);
 }
 
@@ -129,7 +129,7 @@
     transform: none !important;
 }
 
-.swiper-wrapper:has(.swiper-slide):has(.integration__modal):has(.active-modal) {
+.swiper-wrapper:has(.swiper-slide):has(.portfolio__modal):has(.active-modal) {
     transform: none !important;
 }
 
@@ -142,7 +142,7 @@
 }
 
 /*  *******************************************  */
-.integration__card {
+.portfolio__card {
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1.5rem 2rem;
@@ -150,40 +150,40 @@
     margin-bottom: var(--mb-3);
 }
 
-.integration__img {
+.portfolio__img {
     width: 60px;
     border-radius: 3rem;
     margin-bottom: var(--mb-1);
 }
 
-.integration__name {
+.portfolio__name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-25);
 }
 
-.integration__description {
+.portfolio__description {
     font-size: var(--small-font-size);
     padding: .5rem 1.5rem 1.5rem 0rem;
 }
 
 
 @media screen and (max-width: 768px) {
-    .integration__content {
+    .portfolio__content {
         width: 50% !important;
         height: auto !important;
     }
 }
 
 @media screen and (max-width: 576px) {
-    .integration__content {
+    .portfolio__content {
         width: 70% !important;
         height: auto !important;
     }
 }
 
 @media screen and (max-width: 350px) {
-    .integration__content {
+    .portfolio__content {
         width: 80% !important;
         height: auto !important;
     }

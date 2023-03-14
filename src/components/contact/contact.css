@@ -5,6 +5,9 @@
     padding-bottom: 3rem;
 }
 
+.contact__content {
+    text-align: end;
+}
 
 .contact__title {
     text-align: center;

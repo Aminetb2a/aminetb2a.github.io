@@ -25,15 +25,15 @@ const Header = () => {
                             </a>
                         </li>
                         <li className="nav__item">
+                            <a href="#qualification" className="nav__link">
+                                <i className="uil uil-briefcase-alt nav__icon"></i> Qualification
+                            </a>
+                        </li>
+                        <li className="nav__item">
                             <a href="#skills" className="nav__link">
                                 <i className="uil uil-file-alt nav__icon"></i> Skills
                             </a>
-                        </li>
-                          <li className="nav__item">
-                            <a href="#services" className="nav__link">
-                                <i className="uil uil-briefcase-alt nav__icon"></i> Services
-                            </a>
-                        </li>
+                        </li>                        
                         <li className="nav__item">
                             <a href="#portfolio" className="nav__link">
                                 <i className="uil uil-scenery nav__icon"></i> Portfolio                                
