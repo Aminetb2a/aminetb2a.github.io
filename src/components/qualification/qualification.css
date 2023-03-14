@@ -80,6 +80,8 @@
     transform: translate(6px, -7px);
 }
 
+/* =================== BREAKPOINTS =================== */
+
 @media screen and (max-width: 992px) {
     .qualification__container {
         margin-left: auto;
