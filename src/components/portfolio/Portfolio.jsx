@@ -76,6 +76,9 @@ const Portfolio = () => {
                     );
                 })}
             </Swiper>
+            
+            <span className="section__subtitle">Applications I developed</span>
+            <h4 className="section__title">Coming soon...</h4>
         </section>
     )
 }
