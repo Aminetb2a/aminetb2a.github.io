@@ -5,10 +5,11 @@ const Header = () => {
 
     window.addEventListener("scroll", function () {
         const header = this.document.querySelector(".header");
-        if(this.scrollY >= 80) header.classList.add("scroll-header");
+        if(this.scrollY >= 80) 
+            header.classList.add("scroll-header");            
         else header.classList.remove("scroll-header");
     })
-
+    
     /* =================== Toggle Menu =================== */
     const[activeNav, setActiveNav] = useState("#home");
     const[Toogle, showMenu] = useState(false);
