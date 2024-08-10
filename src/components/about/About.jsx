@@ -16,12 +16,13 @@ const About = () => {
                 <div className="about__data">
                     <Info/>
                     <p className="about__description">
-                        I am a Junior Backend Developer focused on applying the principles of engineering to software
-                        development.
-                        Looking to forward my career as a Sr. Backend developer in a software company that thrives on
-                        creativity and customer-oriented values.
-                        I tend to embrace working under pressure because it forces me to become the best version of
-                        myself and act in a quick and decisive manner.
+                        As a dedicated Backend Developer with a strong foundation in engineering principles and a passion for crafting robust, scalable solutions, I excel in turning complex requirements into seamless, high-performance systems. 
+                        My expertise spans multiple technologies and frameworks, allowing me to design and implement efficient backend architectures that drive the success of applications.
+                        
+                        I am committed to continuous learning and thrive in collaborative environments where creativity and technical excellence are valued. 
+                        My ability to analyze and resolve issues quickly, combined with a proactive approach to system optimization, enables me to deliver reliable and high-quality results. 
+                        I am eager to bring my skills to a forward-thinking company that embraces innovation and prioritizes user-centric design.
+
                     </p>
                     <a download="" href={CV} className="button button--flex"> Download CV
                         <svg
