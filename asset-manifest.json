@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.577197fc.css",
-    "main.js": "/static/js/main.5e5bcdb6.js",
+    "main.css": "/static/css/main.d83bfd33.css",
+    "main.js": "/static/js/main.ca23cd5c.js",
     "static/media/about.jpeg": "/static/media/about.dbd4472bf93e2484e5fb.jpeg",
     "static/media/profile.jpeg": "/static/media/profile.97aca755448e4ad97186.jpeg",
-    "static/media/AhmedAmine_Cv_03_2023.pdf": "/static/media/AhmedAmine_Cv_03_2023.1030e404a069824fb95c.pdf",
+    "static/media/AhmedAmineTalebBahmed_CV2024.pdf": "/static/media/AhmedAmineTalebBahmed_CV2024.cc44fc3b6dadb0ed734c.pdf",
     "index.html": "/index.html",
-    "main.577197fc.css.map": "/static/css/main.577197fc.css.map",
-    "main.5e5bcdb6.js.map": "/static/js/main.5e5bcdb6.js.map"
+    "main.d83bfd33.css.map": "/static/css/main.d83bfd33.css.map",
+    "main.ca23cd5c.js.map": "/static/js/main.ca23cd5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.577197fc.css",
-    "static/js/main.5e5bcdb6.js"
+    "static/css/main.d83bfd33.css",
+    "static/js/main.ca23cd5c.js"
   ]
 }
