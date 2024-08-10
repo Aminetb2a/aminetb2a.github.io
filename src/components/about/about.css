@@ -40,7 +40,8 @@
 }
 
 .about__description {
-    padding: 0 4rem 0 0;
+    text-align: left;
+    padding: 0 2rem 0 0;
     margin-bottom: var(--mb-2-5);
 }
 
